@@ -1,0 +1,58 @@
+
+<button type ="button"><canvas id="myCanvas" width="400" height="400"></canvas></button>
+
+<script>
+    
+    let canvas = document.getElementById("myCanvas");
+    let ctx = canvas.getContext("2d");
+    // ctx.beginPath();
+    // ctx.arc(200, 200, 50, 0, Math.PI * 1, true);
+    // ctx.fillStyle = "blue";
+    
+    // ctx.arc(280, 200, 50, 0, Math.PI * 0.6, Math.PI * 2);
+    // ctx.fillStyle = "blue";
+    
+
+    
+    // ctx.moveTo(150, 200);
+    // ctx.lineTo(240, 400);
+    // ctx.lineTo(330, 200);
+    // ctx.fillStyle = "blue";
+    // ctx.fill();
+   
+
+    ctx.beginPath();
+    ctx.arc(200, 100, 40, 0, Math.PI * 1, true);
+    ctx.fillStyle = "green";
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.moveTo(160, 110);
+    ctx.lineTo(240, 110);
+    ctx.lineTo(250, 140);
+    ctx.lineTo(150, 140);
+    ctx.fillStyle = "green";
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(185, 80, 10, 0, Math.PI * 2);
+    ctx.fillStyle = "white";
+    ctx.fill();
+
+    
+    ctx.arc(215, 80, 10, 0, Math.PI * 2);
+    ctx.fillStyle = "white";
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.arc(185, 80, 5, 0, Math.PI * 2);
+    ctx.fillStyle = "green";
+    ctx.fill();
+
+   
+    ctx.arc(215, 80, 5, 0, Math.PI * 2);
+    ctx.fillStyle = "green";
+    ctx.fill();
+
+</script>
+
